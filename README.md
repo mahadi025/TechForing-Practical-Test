@@ -53,16 +53,15 @@ This is a Django-based project management system with support for users, project
    - Open your browser and go to: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
    - Admin panel: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
 
-## Project Structure
+## App Documentation
 
-- `users/` - User management app
-- `projects/` - Project management app
-- `tasks/` - Task management app
-- `comments/` - Comment system app
+- [User App Documentation](user/README.md)
+- [Project App Documentation](projects/README.md)
+- [Task App Documentation](task/README.md)
+- [Comment App Documentation](comments/README.md)
 
 ## Notes
 
 - Default database is SQLite (`db.sqlite3`).
-- Static files are served from the `static/` directory in development.
 - API authentication uses token-based authentication (`rest_framework.authtoken`).
 - Import the API.postman_collection.json file on Postman to use all the endpoints.
