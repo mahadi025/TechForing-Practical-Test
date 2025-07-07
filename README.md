@@ -55,10 +55,10 @@ This is a Django-based project management system with support for users, project
 
 ## Project Structure
 
-- `user/` - User management app
-- `project/` - Project management app
-- `task/` - Task management app
-- `comment/` - Comment system app
+- `users/` - User management app
+- `projects/` - Project management app
+- `tasks/` - Task management app
+- `comments/` - Comment system app
 
 ## Notes
 
