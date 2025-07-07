@@ -21,7 +21,7 @@ This is a Django-based project management system with support for users, project
 
    ```sh
    python -m venv .venv
-   source .venv/bin/activate  # On Windows: venv\Scripts\activate
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
 3. **Install dependencies**
